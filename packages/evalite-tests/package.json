@@ -9,7 +9,7 @@
     "lint": "tsc"
   },
   "dependencies": {
-    "evalite": "workspace:*",
+    "evalite": "workspace:@spacethree/evalite@*",
     "evalite-ui": "workspace:*",
     "strip-ansi": "^7.1.2",
     "autoevals": "^0.0.131",

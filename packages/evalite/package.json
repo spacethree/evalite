@@ -1,9 +1,9 @@
 {
-  "name": "evalite",
+  "name": "@spacethree/evalite",
   "version": "0.19.0",
   "type": "module",
-  "description": "Test your LLM-powered apps with a TypeScript-native, Vitest-based eval runner. No API key required.",
-  "homepage": "https://evalite.dev",
+  "description": "SpaceThree fork of evalite with a Postgres storage adapter. Test your LLM-powered apps with a TypeScript-native, Vitest-based eval runner.",
+  "homepage": "https://github.com/spacethree/evalite",
   "keywords": [
     "ai",
     "evals",
@@ -11,13 +11,16 @@
     "vitest"
   ],
   "main": "./tsconfig-warning/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "bugs": {
-    "url": "https://github.com/mattpocock/evalite/issues"
+    "url": "https://github.com/spacethree/evalite/issues"
   },
   "author": "Matt Pocock <team@aihero.dev> (https://aihero.dev)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattpocock/evalite.git"
+    "url": "git+https://github.com/spacethree/evalite.git"
   },
   "bin": {
     "evalite": "./dist/bin.js"

@@ -103,7 +103,7 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       evalite:
-        specifier: workspace:*
+        specifier: workspace:@spacethree/evalite@*
         version: link:../../packages/evalite
       isbot:
         specifier: ^4.1.0
@@ -276,7 +276,7 @@ importers:
         specifier: ^0.0.131
         version: 0.0.131(ws@8.18.0)
       evalite:
-        specifier: workspace:*
+        specifier: workspace:@spacethree/evalite@*
         version: link:../evalite
       evalite-ui:
         specifier: workspace:*
@@ -303,7 +303,7 @@ importers:
         specifier: ^16.4.5
         version: 16.4.5
       evalite:
-        specifier: workspace:*
+        specifier: workspace:@spacethree/evalite@*
         version: link:../evalite
       unstorage:
         specifier: ^1.17.1
