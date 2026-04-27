@@ -1,6 +1,6 @@
 {
   "name": "@spacethree/evalite",
-  "version": "0.19.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "SpaceThree fork of evalite with a Postgres storage adapter. Test your LLM-powered apps with a TypeScript-native, Vitest-based eval runner.",
   "homepage": "https://github.com/spacethree/evalite",
